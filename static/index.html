@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ToolBox Suite</title>
+  <meta name="description" content="Simple frontend toolbox with PDF, image, text, and developer tools." />
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+  <link rel="stylesheet" href="./styles.css" />
+  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2476363543205510" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header class="topbar">
+    <h1>ToolBox Suite</h1>
+    <p>Frontend-only static tools</p>
+  </header>
+
+  <main class="layout">
+    <aside class="sidebar">
+      <input id="search" placeholder="Search tools..." />
+      <div id="toolList"></div>
+    </aside>
+
+    <section class="panel">
+      <h2 id="toolTitle">Choose a tool</h2>
+      <p id="toolDesc">Select a tool from the left menu.</p>
+      <div id="toolMount"></div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 ToolBox Suite</p>
+    <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-2476363543205510" data-ad-format="auto" data-full-width-responsive="true"></ins>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/pdf-lib/dist/pdf-lib.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.4/build/qrcode.min.js"></script>
+  <script src="./app.js"></script>
+</body>
+</html>
